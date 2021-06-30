@@ -1,0 +1,90 @@
+﻿/* DDL - Data Definition Language | Linguagem de Definição de Dados */
+/* CREATE | DROP | ALTER */
+
+/*APAGANDO UM BANCO DE DADOS */
+DROP DATABASE IF EXISTS cinesystem;
+
+SELECT * FROM tbl_empresa;
+
+/* CRIANDO UM BANCO DE DADO*/
+CREATE DATABASE IF NOT EXISTS cinesystem;
+ 
+ /* UTILIZANDO/SELECIONANDO UM BANCO DE DADO CRIADO */
+USE cinesystem;
+
+/* CRIANDO TABELAS */
+CREATE TABLE IF NOT EXISTS tbl_empresa(
+cnpj VARCHAR(18) PRIMARY KEY NOT NULL,
+nome VARCHAR(45)
+);
+
+/*ADICIONANDO COLUNAS*/
+ALTER TABLE tbl_empresa;
+
+SHOW COLUMNS FROM tbl_empresa;
+
+CREATE TABLE IF NOT EXISTS tbl_site(
+url VARCHAR(100)
+);
+
+/*ADICIONANDO COLUNAS*/
+ALTER TABLE tbl_site;
+
+SHOW COLUMNS FROM tbl_site;
+
+CREATE TABLE IF NOT EXISTS tbl_loja(
+id_loja INT NOT NULL PRIMARY KEY,
+cepRCHAR VARCHAR(9),
+estado VARCHAR(45),
+cidade VARCHAR(45),
+logradouro VARCHAR(45),
+numero INT,
+bairro VARCHAR(45)
+);
+
+/*ADICIONANDO COLUNAS*/
+ALTER TABLE tbl_loja;
+
+SHOW COLUMNS FROM tbl_loja;
+
+CREATE TABLE IF NOT EXISTS tbl_ingresso(
+cod_ingresso INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+cod_sala INT,
+filme VARCHAR(100),
+valor DECIMAL
+);
+
+/*ADICIONANDO COLUNAS*/
+ALTER TABLE tbl_ingresso;
+
+SHOW COLUMNS FROM tbl_ingresso;
+
+CREATE TABLE IF NOT EXISTS tbl_produto(
+cod_produto INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+categoria VARCHAR(45),
+nome_produto VARCHAR(45),
+valor INT
+);
+
+/*ADICIONANDO COLUNAS*/
+ALTER TABLE tbl_produto;
+
+SHOW COLUMNS FROM tbl_produto;
+
+CREATE TABLE IF NOT EXISTS tbl_cliente(
+cpf INT NOT NULL PRIMARY KEY,
+nome VARCHAR(100) NOT NULL
+);
+
+SHOW COLUMNS FROM tbl_cliente;
+
+CREATE TABLE IF NOT EXISTS tbl_sala(
+cod_sala INT NOT NULL PRIMARY KEY,
+num_sala INT NOT NULL,
+poltrona INT NOT NULL
+);
+
+/*ADICIONANDO COLUNAS*/
+ALTER TABLE tbl_sala;
+
+SHOW COLUMNS FROM tbl_sala;
