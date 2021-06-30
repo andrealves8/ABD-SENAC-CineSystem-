@@ -157,8 +157,5 @@ Linkedin: [https://www.linkedin.com/in/andrealves8/](https://www.linkedin.com/in
 
 Linkedin: [https://github.com/andrealves8](https://github.com/andrealves8)
 
-# Projeto-ABD2-Senac-Cine-System-
-# Projeto-ABD2-Senac-Cine-System-
-# Projeto-ABD2-Senac-Cine-System-
-# Projeto-ADB-CINESYSTEM
-# ADB-SENAC-CineSystem-
+
+# ABD-SENAC-CineSystem-
