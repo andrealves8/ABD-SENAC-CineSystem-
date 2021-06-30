@@ -155,7 +155,7 @@ André Alves: [andrealves-tec@hotmail.com](andrealves-tec@hotmail.com)
 
 Linkedin: [https://www.linkedin.com/in/andrealves8/](https://www.linkedin.com/in/andrealves8/)
 
-Linkedin: [https://github.com/andrealves8](https://github.com/andrealves8)
+Github: [https://github.com/andrealves8](https://github.com/andrealves8)
 
 
 # ABD-SENAC-CineSystem-
