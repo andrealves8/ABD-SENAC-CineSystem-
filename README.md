@@ -42,7 +42,7 @@ Projeto da Empresa: CINESYSTEM
 
 
 
-<img src="./images/conceitual.png">
+<img src="./conceitual.png">
 
 
 
@@ -50,7 +50,7 @@ Projeto da Empresa: CINESYSTEM
 
 <h3>Modelo Lógico</h3>
 
-<img src="./images/logico.png">
+<img src="./logico.png">
 
 
 
